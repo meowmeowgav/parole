@@ -1,0 +1,7 @@
+/*int age = 12;
+	string parole = "e1";
+	string parolein;
+	cin >> parolein;
+	if (parolein == parole) {cout << "ok" << endl;}
+	else cout << "wrong parole";
+	return 0;*/
