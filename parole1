@@ -1,0 +1,57 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+	//	int age = -20;
+	//	if (age > 0) {
+	//		cout << "All good";
+	//	}
+	//
+	//	else cout << "wrong" << endl;
+	//	cout << "exit";
+	//	return 0;
+	//}
+	//
+	//
+	//{
+	/*int dog = 33, cat = 12;
+	if (dog >= 0 && dog <= 30) {cout << "dogs age is ok" << endl;}
+	else cout << "wrong dogs age" << endl;
+	if (cat > 0 && cat <= 20) { cout << "cats age is ok" << endl; }
+	else cout << "wrong cats age " << endl;
+}
+
+{
+	int atzime = 7, vecums = 15, augums = 165;
+	if (atzime >= 0 && atzime <= 6) { cout << "atzime is ok" << endl; }
+	else cout << "wrong atzime" << endl;
+	if (vecums > 0 && vecums <= 10) { cout << "vecums is ok" << endl; }
+	else cout << "wrong vecums" << endl;
+	if (augums >= 0 && augums <= 170) { cout << "augums is ok" << endl; }
+	else cout << "wrong augums" << endl;
+}*/
+
+
+	/*int age = 12;
+	string parole = "e1";
+	string parolein;
+	cin >> parolein;
+	if (parolein == parole) {cout << "ok" << endl;}
+	else cout << "wrong parole";
+	return 0;*/
+}
+{
+
+	int age = 12; string p = "0000", p1;
+	string username = "rr", username1;
+	cout << "login : " << endl;
+	cin >> username1;
+	cout << "password :";
+	cin >> p1;
+	cout << "____________" << endl;
+
+	if (username == username1 && p == p1) { cout << "good" << endl << "the age is" << endl; }
+	else cout << "wrng";
+	return 0;
+}
