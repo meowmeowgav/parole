@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+int main() {
+	/*int i = 0;
+	do {
+		i++;
+		cout << i << " " << i * i << endl;
+	} while (i < 100);
+	return 0;
+}*/
+
+/*int s;
+cin >> s;
+if (s > 0 && s <= 20) {
+	cout << "ok" << endl;
+}
+else cout << "wrong skaitli";
+return 0;
+}*/
+
+//	int a;
+//	cin >> a;
+//	if(a > 100 || a <30) {cout << "ok" << endl;
+//	}
+//	else cout << "wrong skaitli";
+//	return 0;
+//}
+
+//	int i = 0;
+//	do {
+//		i++;
+//		cout << "sonya" << endl;
+//	} while (i < 20);
+//	cout << "i am done" << endl;
+//	return 0;
+//}
+
+	/*int i = 11;
+	do {
+		i--;
+		cout << i << endl;
+	} while (i > 0);
+	return 0;
+}*/
+
+	int i = 0;
+	string parole;
+	string name;
+	do{
+		i++;
+		cin >> name; cin >> parole;
+		if (name == "sonya" && parole == "123") {
+			cout << "well done";
+		} while ((name != "sonya" && parole != "123") && i != 2);
