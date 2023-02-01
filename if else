@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//int sk1;
+	//int sk2;
+	//cin >> sk1 >> sk2;
+	//if (sk1 > sk2) {
+	//	cout << "sk1 ir minimals un sk2 ir maksimalais" << endl;
+	//}
+	//else cout << "sk2 ir minimals un sk1 ir maksimalais ";
+
+	//if (sk1 > 0) { cout << "sk1 ir pozitivs" << endl; }
+	//else cout << "sk1 ir negativs" << endl;
+	//if (sk2 > 0) { cout << "sk2 ir pozitivs" << endl; }
+	//else cout << "sk2 ir negativs" << endl;
+
+	//if (sk1 % 2 ==0) { cout << "sk1 ir parask" << endl; }
+	//else cout << "sk1 ir neparask" << endl;
+	//if (sk2 % 2 ==0) { cout << "sk2 ir parask" << endl; }
+	//else cout << "sk2 ir neparask" << endl;
+
+	//int procent;
+	//cin >> procent;
+	//if (procent >= 90) { cout << " Grade A" << endl; }
+	//else if  (procent >= 80) { cout << " Grade B" << endl; }
+	//else if  (procent >= 70) { cout << " Grade C" << endl; }
+	//else if (procent >= 60) { cout << " Grade D" << endl; }
+	//else if (procent >= 40) { cout << " Grade E" << endl; }
+	//else if (procent < 40) { cout << " Grade F" << endl; }
+
+	//int sk1;
+	//int sk2;
+	//cin >> sk1 >> sk2;
+	//if (sk1 == 1) { cout << "Pirmdiena" << endl; }
+	//if (sk1 == 2) { cout << "Otrdiena" << endl; }
+	//if (sk1 == 3) { cout << "Tresdiena" << endl; }
+	//if (sk1 == 4) { cout << "Cetrtdiena" << endl; }
+	//if (sk1 == 5) { cout << "Piektdiena" << endl; }
+	//if (sk1 == 6) { cout << "Sestdiena" << endl; }
+	//if (sk1 == 7) { cout << "Svetdiena" << endl; }
+	//if (sk1 < 0 || sk1>7) { cout << "nav attiecigo dienu" << endl; }
+
+
+	//if (sk2 == 1) { cout << "Jan" << endl; }
+	//if (sk2 == 2) { cout << "Feb" << endl; }
+	//if (sk2 == 3) { cout << "MAR" << endl; }
+	//if (sk2 == 4) { cout << "APR" << endl; }
+	//if (sk2 == 5) { cout << "MAJ" << endl; }
+	//if (sk2 == 6) { cout << "JUN" << endl; }
+	//if (sk2 == 7) { cout << "JUL" << endl; }
+	//if (sk2 == 8) { cout << "AUG" << endl; }
+	//if (sk2 == 9) { cout << "SEP" << endl; }
+	//if (sk2 == 10) { cout << "OKT" << endl; }
+	//if (sk2 == 11) { cout << "NOV" << endl; }
+	//if (sk2 == 12) { cout << "DEC" << endl; }
+	//if (sk2 < 0 || sk1>12) { cout << "nav attiecigo menesi" << endl; }
+
+
+
+
+	return 0;
+
+
+}
