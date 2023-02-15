@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+int time;
+ cin >> time;
+if (time >=1 && time <=11) { cout << time<<"AM"; }
+if(time>=12&&time<=24){cout<<time<<"PM";}
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main() {
+int sk1, sk2, sk3;
+
+cout << "enter three numbers" << endl;
+cin >> sk1 >> sk2>>sk3;
+
+if (sk1 > sk2&&sk2>sk3)
+   cout << " sk1 max, sk3 min;";
+if (sk1 > sk3&&sk3>sk2)
+cout << " sk1 max, sk2 min;";
+if (sk2> sk1&&sk1>sk3)
+   cout << " sk2 max, sk3 min;";
+if (sk2 > sk3&&sk3>sk1)
+cout << " sk2 max, sk1 min;";
+if (sk3 > sk2&&sk2>sk1)
+cout << " sk3 max, sk1 min;";
+if (sk3 > sk1&&sk1>sk2)
+cout << " sk3 max, sk2 min;";
