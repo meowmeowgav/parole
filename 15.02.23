@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//string a;
+	//do {
+	//	cin >> a;
+	//	cout << a << endl;
+	//} while (a != "stop" && a != "STOP");
+	//return 0;
+	
+
+	//int i = 0;
+	//string parole;
+	//do {
+	//	i++;
+	//	cin >> parole;
+	//	if (parole == "123") { cout << "well done"; }
+	//} while (parole != "123" && i != 5);
+	//if (parole != "123") { cout << "Sorry you are out" << endl;}
+	//return 0;
+
+       /* int i = 1001;
+		do {
+			i--;
+			cout << i << " " << i-5 << endl;
+		} while (i > 0);
+		return 0;*/
+
+	/*int temp;
+	cin >> temp;
+	if (temp >= 36.7) { cout << "Temperatūra ir pozitīva " << endl; }
+	else if (temp == 36.6) { cout << "Temperatūra ir neitrāla" << endl; }
+	else if (temp <= 36.5) { cout << "Temperatūra ir negatīva " << endl; }
+	return 0;*/
+
+	int sk1 = 1;
+	int sk2 = 3;
+	int sk3 = 5;
+	cin >> sk1 >> sk2 >> sk3;
+	if (sk3 > sk2 &&sk3>sk1) {
+		cout << "sk3 ir maks " << endl;
+		return 0;
+	}
+
+}
