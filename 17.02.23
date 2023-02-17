@@ -1,0 +1,45 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+int main() {
+	/*vector <int> num{ 1,2,3,1,2 };
+	if (num[0] == 1) cout << "1.vieta ir 1" <<endl;
+	if (num[1] == 1) cout << "2.vieta ir 1" << endl;
+	if (num[2] == 1) cout << "3.vieta ir 1" << endl;
+	if (num[3] == 1) cout << "4.vieta ir 1" << endl;
+	if (num[4] == 1) cout << "5.vieta ir 1" << endl;
+
+	if (num[0] == 4) cout << "1.vieta ir 4" << endl;
+	if (num[1] == 4) cout << "2.vieta ir 4" << endl;
+	if (num[2] == 4) cout << "3.vieta ir 4" << endl;
+	if (num[3] == 4) cout << "4.vieta ir 4" << endl;
+	if (num[4] == 4) cout << "5.vieta ir 4" << endl;
+	else cout << "There is not 4 " << endl;
+	cout << num[0] << num[1] << num[2] << num[3] << num[4];
+	return 0;*/
+
+	//vector <string> c{ "USA", "UK","China","India", "Canada", "Australia"};
+	//vector <string> code{"+1","+44","+86","+91","+1", "+61"};
+	//string num, cod;
+	//cout << "1.tel num, 2.kods" << endl;
+	//cin >> num >> cod;
+	//if (code[0] == cod)cout << c[0] << endl;
+	//if (code[1] == cod)cout << c[1] << endl;
+	//if (code[2] == cod)cout << c[2] << endl;
+	//if (code[3] == cod)cout << c[3] << endl;
+	//if (code[4] == cod)cout << c[4] << endl;
+	//if (code[5] == cod)cout << c[5] << endl;
+	//cout << cod << num << endl;
+
+	vector <int> atz{ 3,8,7,4 };
+	vector <string> var{ "Anna","Antons","Vlads","Artemijs" };
+	int w;
+	cin >> w;
+	if (atz[0] == w)cout << var[0] << endl;
+	if (atz[1] == w)cout << var[1] << endl;
+	if (atz[2] == w)cout << var[2] << endl;
+	if (atz[3] == w)cout << var[3] << endl;
+	cout << "name" << endl;
+
+
+}
