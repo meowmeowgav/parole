@@ -1,0 +1,106 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+int main()
+{
+	/*vector<int>a{1, 2, 5, 6, 7, 3, 1, 2};
+	int i = 0;
+	do {
+		if (a[i] == 3) { cout << "atradam 3 "; }
+		if (a[i] == 5) { cout << "atradam 5 "; }
+		i++;
+	} while (i<a.size());
+	a.pop_back();
+	a.at(4) = 5;
+	a.push_back(3);
+
+
+
+	i = 0;
+	do {
+		cout << a[i]<<endl;
+		i++;
+	} while (i < a.size());*/
+
+	
+	//vector<string>b{ "galds","kresls","lampa","dators","durvis"};
+	//int i = 0;
+	//do {
+	//	if (b[i] == "dators") { cout << "atradam datoru "; }
+	//	if (b[i] == "skapis") { cout << "atradam skapju "; }
+	//	i ++;
+	//} while (i < b.size());
+	//b.pop_back();
+	//b.at(3) = "laptops";
+	//b.push_back("logs");
+
+
+
+
+	//i = 0;
+	//do {
+	//	cout << b[i] << endl;
+	//	i++;
+	//} while (i < b.size());
+
+	/*int i = 0;
+	vector<string>country{ "USA","UK", "China","India","Canada","Australia" };
+	vector<string>code{ "+1","+44","+86","+91","+1","+61" };
+	string atb; string irnav = "nav";
+	cin >> atb;
+	i = 0;
+	do {
+		if (country[i] == atb) {
+			cout << code[i]; irnav = "ir";
+		}
+			
+			i ++;
+		} while (i < country.size());
+		if (irnav == "nav")cout << " tadas valsts nav ";
+
+		i = 0;
+		do {
+			if (code[i] == atb) {
+				cout << country[i]; irnav = "ir";
+			}
+
+			i++;
+		} while (i < code.size());
+		if (irnav == "nav")cout << "     tada coda nav ";
+		
+		
+	i = 0;
+	do {
+		cout << country[i] << endl;
+		cout << code[i] << endl;
+		i++;
+	} while (i < country.size()); 
+	while (i < code.size());
+
+	country.at(1) = "Igaunija";
+	code.at(1) = "+372";
+	country.pop_back();
+	code.pop_back();
+	country.push_back("Latvija");
+	code.push_back("+371");*/
+
+
+	string atb; string irnav = "nav";
+	cin >> atb;
+	int i = 0;
+	vector<string>name{ "Anna","Antons", "Vlads","Artemijs" };
+	vector<string>grade{ "3","8","7","4" };
+	i = 0;
+	do {
+		if (grade[i] == atb) {
+			cout << name[i]; irnav = "ir";
+		}
+
+		i++;
+	} while (i < grade.size());
+	if (irnav == "nav")cout << " tadas atzimes nav ";
+	name.pop_back();
+	grade.pop_back();
+	name.push_back("Alla");
+	grade.push_back("6");
+}
